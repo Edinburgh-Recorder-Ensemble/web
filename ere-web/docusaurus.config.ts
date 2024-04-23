@@ -67,7 +67,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/blog', label: 'Events', position: 'left'},
+        {to: '/blog', label: 'Events', position: 'right'},
         {
           href: 'https://github.com/Edinburgh-Recorder-Ensemble/web',
           label: 'GitHub',
