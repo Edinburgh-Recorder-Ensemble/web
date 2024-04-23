@@ -19,11 +19,11 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm install
         working-directory: ere-web
         
       - name: Build website
-        run: yarn build
+        run: npm run build
         working-directory: ere-web
 
       - name: Upload Build Artifact
