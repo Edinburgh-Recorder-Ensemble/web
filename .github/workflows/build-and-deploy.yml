@@ -20,13 +20,16 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+        working-directory: ere-web
+        
       - name: Build website
         run: yarn build
+        working-directory: ere-web
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: ere-web/build
 
   deploy:
     name: Deploy to GitHub Pages
