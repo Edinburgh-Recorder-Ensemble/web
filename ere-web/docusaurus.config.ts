@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Edinburgh Recorder Ensemble',
-  tagline: 'Build in progress... Please come back soon!',
+  tagline: '22nd June 2025, 6pm. St Gile\'s Cathedral, High Street, Edinburgh',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
